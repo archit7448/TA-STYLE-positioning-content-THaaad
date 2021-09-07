@@ -1,0 +1,61 @@
+header{
+    background-color:#2D3040;
+}
+.logo{
+    display: inline-block;
+    width: 150px;
+    height:150px;
+    border-radius:50%;
+}
+.container1{
+    width:60%;
+    display: inline-block;
+}
+.login{
+    display: inline-block;
+}
+.essential{
+    font-size:30px;
+    padding:20px;
+    color:white;
+}
+.first{
+    color: #13a73b;
+}
+.container2{
+    width:25%;
+    display:inline-block;
+    color:white;
+}
+.container3{
+    width:55%;
+    display:inline-block;
+    padding:50px;
+}
+.alexa{
+    width:600px;
+    height:500px;
+    display: inline-block;
+}
+h1{
+    font-size:30px;
+}
+p{
+    font-size: 20px;
+}
+h2{
+    color: #13a73b;
+    text-decoration:underline;
+}
+.article{
+    background-color:#3F4E85;
+}
+footer{
+    height:50px;
+    background-color: #2D3040;
+    padding:20px;
+}
+small{
+    font-size:20px;
+    margin:0 170px;
+}
