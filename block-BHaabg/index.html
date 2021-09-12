@@ -1,15 +1,62 @@
-<!-- ### Exercise
-
-1. Create a simple page having a header, main content, and a footer.
-
-2. Inside the header keep the logo to the left and all the navigation to the right.
-
-3. The header must be fixed at the top of the page.
-
-4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
-
-5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
-
-6. After the gallery section footer will come.
-
-7. Take a circular button at the right bottom corner of the page and keep its position fixed. The button should always take to the top of the page once clicked. -->
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <title>position assignment-2</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="fixed">
+            <a  class="circle" href="#">up</a>
+        </div>
+        <header class="clearfix">
+            <div class="img1">
+            <img src="assets/smarty.png" alt="logo">
+            </div>
+            <nav>
+            <a class="home" href="#">HOME</a>
+            <a href="#">LOG IN</a>
+            <a href="#">SIGN UP</a>
+            <a href="#">ABOUT</a>
+            </nav>
+        </header>
+        <section class="bg">   
+            <div class="main clearfix">
+                <div class="img01" >
+                    <img class="alexa" src="assets/alexa.jpg" alt="alexa">
+                </div>        
+                <div class="article">
+                    <h1>SMARTY-INSPIRES US</h1>
+                    <h2>ALEXA</h2>
+                    <p>Echo Dot is our best selling smart speaker that can be operated by voice - even from a distance.
+                       Alexa can speak both English & Hindi, and new features are added automatically
+                    </p>
+                    <p>Get started with Smart home: It is simple to make your home smart and use voice to control lights.
+                     Extend this experience to other appliances like ACs, TVs, geysers using smart plugs (to be purchased separately
+                    </p>
+                    <p>Voice makes everything simple: Just ask Alexa to easily pay your bills, 
+                        get news, weather, cricket scores, nursery rhymes and stories!
+                    </p>
+                </div>
+            </div>
+            </section>
+            <div class="gallery clearfix">
+                <div class="galleryimg clearfix">
+                    <div class="gall"><img class="pic" src="assets/pic01.jpg" alt="pic01"></div> 
+                    <div class="gall"><img class="pic" src="assets/pic02.jpg" alt="pic02"></div>
+                    <div class="gall"><img class="pic" src="assets/pic03.jpg" alt="pic03"></div>
+                </div>
+                <div class="galleryimg clearfix">
+                    <div class="gall"><img class="pic" src="assets/pic04.jpg" alt="pic04"></div>
+                    <div class="gall"><img class="pic" src="assets/pic05.jpg" alt="pic05"></div>
+                    <div class="gall"><img class="pic" src="assets/pic06.jpg" alt="pic06"></div>
+                </div>
+            </div>             
+            </section>
+        <footer>
+            <div>
+                <small>&copy;SMARTY PVT.LTD</small>
+            </div>
+        </footer>    
+    </body>
+</html>
