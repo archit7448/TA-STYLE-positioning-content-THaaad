@@ -1,0 +1,163 @@
+.body{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+}
+.header{
+    height:500px;
+    background-color: #5385C1;
+}
+.theory{
+    padding-top:80px;
+    float: left;
+    font-size:25px;
+    text-decoration:none;
+    color:white;
+    margin-left: 0px;
+}
+nav{
+    font-size:15px;
+    float:right;
+    padding-top:80px;
+}
+a{
+    margin-left:20px;
+    color:#b4c8e1;
+    text-decoration: none;
+}
+.container{
+    width:75%;
+    margin:0 auto;
+}
+.clearfix::before,.clearfix::after{
+    content:"";
+    display: table;
+}
+.clearfix::after{
+    clear:both;
+}
+.content{
+    padding-top:200px;
+    vertical-align: middle;
+    text-align: center;
+}
+h1{
+    font-size:60px;
+    color: white;
+    margin-bottom:0px;
+}
+h2{
+    font-size:17px;
+    color: #b4c8e1;
+}
+.small-container{
+    width:25%;
+    float: left;
+    padding:60px 0;
+    margin-right:8%;
+}
+h3{
+    color:#5385C1;
+    font-size:25px;
+}
+p{
+    color:#b0a9a9;
+    font-size:17px;
+}
+.more{
+    height:35px;
+    width:25%;
+    background-color:#5385C1;
+}
+.button{
+    text-align: center;
+    color:white;
+    height:35px;
+    line-height:35px;
+    vertical-align: middle;
+}
+.third{
+    background-color: #5385C1;
+}
+/*section3*/
+.imgbox{
+    height:300px;
+    float: left;
+    width:20%;
+    margin-right:5%;
+    border:1px solid #b4c8e1;
+    box-sizing: border-box;
+}
+img{
+    width:80%;
+    vertical-align: middle;
+    border-radius: 50%;
+    margin:10%;
+}
+h4{
+    padding-bottom:0px;
+    font-size:40px;
+    color:white;
+    margin-bottom:0px;
+}
+.content2{
+    padding-bottom:30px;
+    text-align: center;
+    vertical-align: middle;
+}
+.img-sec{
+    padding-top:30px;
+    padding-bottom:400px;
+}
+.name{
+    text-align: center;
+    font-size:20px;
+    color: white;
+}
+.designation{
+    text-align: center;
+    font-size: 15px;
+    color:#b4c8e1;
+}
+.heading3{
+    color: #5385C1;
+}
+.heading4{
+    color: #b0a9a9;
+}
+.img-article{
+    float: left;
+    width:40%;
+    padding:0 5%;
+}
+.img01{
+    width:100%;
+    border-radius: 0px;
+    margin: 10px 0px;
+}
+.more1{
+    width:18%;
+    height:35px;
+    background-color:#5385C1;
+}
+.fifth{
+    padding-bottom:500px;
+}
+.content2{
+    padding-top:30px;
+    padding-bottom:60px;
+}
+hr{
+    border:1px solid #b0a9a9;
+}
+.footer{
+    float: left;
+    height:30px;
+    padding:20px 0;
+}
+small{
+    color:#b0a9a9;
+}
+.navlink{
+    float: right;
+    padding:20px 0;
+}
